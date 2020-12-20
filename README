@@ -1,0 +1,31 @@
+
+
+                                        OCR-App Orion
+
+How To Use OCR-App:
+
+	- Compile: make
+	- Launch the app: ./OCR-app
+	- To use the app: go to the "File" button in the top left corner
+			  of the screen. Choose "open" and select the image 
+			  you want to process.
+			  When the image is displayed, press the "Read image" button.
+	- To see the results: go to "ProjectFiles/cache/" 
+			       you will found the result_image
+			       obtained after post-processing.
+			       In "ProjectFiles/cache/blocs/" 
+			       you will found all the blocs
+			       present in the image obtained after segmentation.
+			       In "ProjectFiles/cache/lines/" 
+			       you will found all the lines
+			       present in the image obtained after segmentation.
+			       In "ProjectFiles/cache/words/" 
+			       you will found all the words
+			       present in the image obtained after segmentation.
+			       In "ProjectFiles/cache/characters/" 
+			       you will found all the characters
+			       present in the image obtained after segmentation.
+	- Clean the cache: make clean
+	
+			       
+			       
